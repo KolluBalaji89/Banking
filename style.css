@@ -1,0 +1,92 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Page title */
+h1 {
+    color: #003366;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px #aaa;
+}
+
+/* Sections (Login/Dashboard) */
+#login-section, #dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Form input fields */
+form input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+form input:focus {
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056a3;
+    transform: scale(1.05);
+}
+
+/* Action Sections */
+#action-section div {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    display: none;
+}
+
+#action-section h3 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#balance-section p {
+    font-size: 1.5em;
+    color: #0078d7;
+    font-weight: bold;
+}
