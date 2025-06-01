@@ -1,1 +1,1 @@
-# Banking
+Simple Frontend Banking Application
